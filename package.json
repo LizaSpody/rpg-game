@@ -1,0 +1,45 @@
+{
+  "name": "rpgJS",
+  "version": "1.0.0",
+  "description": "RPG Game",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint src/**/*.js",
+    "prettier": "npx prettier --write .",
+    "dev": "npx webpack server",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizaSpody/rpg-game.git"
+  },
+  "author": "Liza Spody",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LizaSpody/rpg-game/issues"
+  },
+  "homepage": "https://github.com/LizaSpody/rpg-game#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "prettier": "2.3.2",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-server": "^0.1.2",
+    "husky": "^6.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.6"
+  }
+}
