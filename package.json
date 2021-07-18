@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/LizaSpody/rpg-game#readme",
   "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
+    "babel-loader": "^8.2.2",
     "babel-preset-env": "^1.7.0",
     "cross-env": "^7.0.3",
     "css-loader": "^5.2.6",
@@ -38,13 +40,12 @@
     "sass": "^1.35.1",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.0.0",
-    "webpack": "^5.41.1",
+    "webpack": "^5.45.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2",
     "webpack-server": "^0.1.2"
   },
   "dependencies": {
-    "@babel/core": "^7.14.6",
     "@hapi/hapi": "^20.1.5",
     "@hapi/inert": "^6.0.3",
     "dotenv": "^10.0.0"
